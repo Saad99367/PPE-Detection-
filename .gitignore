@@ -1,0 +1,26 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+runs/
+tmp/
+temp/
+*.tmp
+*.log
+ppe-input-*
+.DS_Store
+Thumbs.db
+# Local media can contain sensitive imagery. Explicitly force-add approved samples.
+images/
+videos/
+# Deliberately do not ignore models/best.pt.
